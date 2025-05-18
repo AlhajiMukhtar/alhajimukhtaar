@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alhaji Mukhtar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f9f9f9, #e0f7fa);
+      color: #333;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 40px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+    .content {
+      margin-top: 40px;
+    }
+    .button {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background-color: #005fa3;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the Alhaji Mukhtar Show</h1>
+    <p>Get ready for some fun about FC Barcelona, Leo Messi, and Lamine Yamal</p>
+  </header>
+
+  <div class="content">
+    <p><strong>Host:</strong> Mukhtaar Oluwademilade Abdulrasheed</p>
+
+    <a href="https://www.youtube.com/results?search_query=fc+barcelona+show" target="_blank" class="button">
+      Watch Highlights
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Alhaji Mukhtar Show. All rights reserved.
+  </footer>
+
+</body>
+</html>
